@@ -1,0 +1,6 @@
+---
+layout: index
+title: Articles about software models, methods and methodologies
+---
+
+In this section of the site, we host a series of atricles...

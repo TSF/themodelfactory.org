@@ -1,0 +1,10 @@
+---
+layout: base
+---
+{% capture section %}{{page.categories}}{% endcapture %}
+
+<div class="section header">
+  <a href="/{{ section }}">{{ section | downcase }}s</a> / <a href="/">home</a>
+</div>
+
+{{content}}

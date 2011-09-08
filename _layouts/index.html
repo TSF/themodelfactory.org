@@ -1,0 +1,35 @@
+---
+layout: section
+---
+{% capture section %}{{page.categories}}{% endcapture %}
+
+<h1>{{ section }}s</h1>
+{{content}}
+
+<hr>
+
+{% capture currentLetter %}{% endcapture %}
+
+<table class="index">
+  <tr>
+    <td class="column">
+{% for item in site.categories[section] reversed %}
+  {% if item.layout == "post" %} 
+    {% capture letter %}{{ item.title | truncate: 2, " " }}{% endcapture %}
+		{% capture mod %}{{ forloop.index | divided_by: site[section] | times: site[section] | minus: forloop.index }}{% endcapture %}
+    {% if currentLetter != letter %}
+      {% assign currentLetter = letter %}
+      	<h2>{{ currentLetter }}</h2>
+		{% elsif mod == "-1" %}
+      	<h3>{{ currentLetter }} cont.</h3>
+    {% endif %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+		{% if forloop.first == false and mod == "0" %}
+			</td>
+			<td class="column">
+		{% endif %}
+  {% endif %}
+{% endfor %}
+    </td>
+  </tr>
+</table>
