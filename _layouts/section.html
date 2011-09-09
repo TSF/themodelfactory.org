@@ -4,7 +4,7 @@ layout: base
 {% capture section %}{{page.categories}}{% endcapture %}
 
 <div class="section header">
-  <a href="/{{ section }}">{{ section | downcase }}s</a> / <a href="/">home</a>
+  <a href="{{ site.url}}{{ section }}">{{ section | downcase }}s</a> / <a href="{{ site.url }}">home</a>
 </div>
 
 {{content}}
