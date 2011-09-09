@@ -19,32 +19,32 @@ Following are the characteristics of a high quality analysis model.
 * Unambiguous: A good model should never be vague. Every piece of information in the model should very clearly, without a doubt, mean what it means. If there is ambiguity in the model it will be understood differently by different users. The business may think the description means A where the analyst meant to say B, and the developer might create C. This is better explained by the cartoon below from [http://www.businessballs.com](http://www.businessballs.com).
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing1.png](images/Treeswing1.png)<br>
+![what marketing suggested](Article/images/Treeswing1.png)<br>
 what marketing suggested
 </div>
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing2.png](images/Treeswing2.png)<br>
+![what management approved](Article/images/Treeswing2.png)<br>
 what management approved
 </div>
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing3.png](images/Treeswing3.png)<br>
+![as designed by engineering](Article/images/Treeswing3.png)<br>
 as designed by engineering
 </div>
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing4.png](images/Treeswing4.png)<br>
+![what was manufactured](Article/images/Treeswing4.png)<br>
 what was manufactured
 </div>
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing5.png](images/Treeswing5.png)<br>
-as maintenance installed it
+![how maintenance installed it](Article/images/Treeswing5.png)<br>
+how maintenance installed it
 </div>
 
 <div class="illustration" style="width:300px;height:300px" markdown="true">
-![Article/images/Treeswing6.png](images/Treeswing6.png)<br>
+![what the customer wanted](Article/images/Treeswing6.png)<br>
 what the customer wanted
 </div>
 
